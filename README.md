@@ -1,2 +1,2 @@
 # ai-ml-journey
-My Path to being a Backend ML/AI dev
+My Path to being a ML/AI dev
