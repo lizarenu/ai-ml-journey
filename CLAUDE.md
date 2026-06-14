@@ -134,8 +134,10 @@ ai-ml-journey/
 │   ├── micrograd/
 │   ├── makemore/
 │   └── ...
-└── course-notes/                # notes from IIT-KGP sessions (by session)
-    └── module-N-session-M.md
+├── course-notes/                # notes from IIT-KGP sessions (by session)
+│   └── module-N-session-M.md
+├── dsa/                         # daily DSA notes and problem solutions
+└── system-design/               # daily system design notes and concepts
 ```
 
 ### How to use `concepts/`
@@ -162,6 +164,18 @@ Not every note needs every section. A note on a small concept might just be intu
 The act of writing the note IS the learning. If you write it for me, I won't internalize it.
 
 ## Current focus (update as we progress)
+
+**Week of June 15–19, 2026 — ML Foundations → Attention**
+
+| Day | Topic | Drill |
+|-----|-------|-------|
+| Mon | Bias/variance trade-off, measuring fit, train/val/test split | Polynomial fitting with numpy, plot train vs val loss |
+| Tue | Linear + logistic regression, cross-validation, L1/L2 regularization | Linear regression from scratch in numpy |
+| Wed | CNN — convolution, feature maps, pooling, limits for sequences | 2D convolution from scratch in numpy |
+| Thu | RNN — hidden state, sequence modeling, vanishing gradient problem | RNN cell from scratch, trace computation manually |
+| Fri | Attention — Q/K/V, scaled dot-product, softmax over keys | Scaled dot-product attention from scratch in numpy |
+
+**Backlog (week 2):** Tree models, SVM, unsupervised learning, classification drill
 
 
 ## Hours and pace
