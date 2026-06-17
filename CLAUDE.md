@@ -165,17 +165,18 @@ The act of writing the note IS the learning. If you write it for me, I won't int
 
 ## Current focus (update as we progress)
 
-**Week of June 15–19, 2026 — ML Foundations → Attention**
+**Revised Jun 17, 2026 — Module 1 depth plan, not synced to class pace.** Class is broad/fast (deep learning basics + CNN/RNN + attention covered in classes 1–3; transformer architecture is next, Sat Jun 20). We go deep regardless of where the class is — see PLAN.md "Module 1 working plan" for the full 5-phase breakdown (Phase 0 through Jul 18).
+
+**Phase 0 — this week (Jun 17–21): finish deep learning essentials**
 
 | Day | Topic | Drill |
 |-----|-------|-------|
-| Mon | Bias/variance trade-off, measuring fit, train/val/test split | Polynomial fitting with numpy, plot train vs val loss |
-| Tue | Linear + logistic regression, cross-validation, L1/L2 regularization | Linear regression from scratch in numpy |
-| Wed | CNN — convolution, feature maps, pooling, limits for sequences | 2D convolution from scratch in numpy |
-| Thu | RNN — hidden state, sequence modeling, vanishing gradient problem | RNN cell from scratch, trace computation manually |
-| Fri | Attention — Q/K/V, scaled dot-product, softmax over keys | Scaled dot-product attention from scratch in numpy |
+| Wed | Backprop from scratch, gradient descent variants | Implement backprop for a small NN in numpy |
+| Thu | Regularization (L1/L2), bias/variance recap; CNN — conceptual only (no full impl) | Explain CNN intuition + why it doesn't suit sequences |
+| Fri | RNN — hidden state, sequence modeling, vanishing gradient problem | RNN cell from scratch, trace gradients manually, observe vanishing gradient |
+| Sun | Retro + buffer | Catch up / consolidate before Phase 1 (attention) starts Jun 22 |
 
-**Backlog (week 2):** Tree models, SVM, unsupervised learning, classification drill
+**Next:** Phase 1 (Jun 22–28) — attention from scratch. Full phase plan lives in PLAN.md.
 
 
 ## Hours and pace
