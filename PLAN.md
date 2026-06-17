@@ -21,7 +21,7 @@ The goal is NOT to "finish the course" or "learn everything." It's mathematical 
 
 The course is the spine; my work is the muscle.
 
-I will inform you of the concepts and topics covered in the live class on Sunday. Then we will spend the week understanding the concept in depth, then implementing it. So I will have a strong hold on the concepts week-by-week.
+I prioritize understanding the concept in depth, then implementing it. So I will have a strong hold on the concepts week-by-week.
 
 
 **Goal:** 2-3 substantial projects that are actually impressive on a resume and concretely demonstrate AI/ML + systems + product building competence.
@@ -75,6 +75,10 @@ documentation. Industry capstone project.
 
 
 | Module 1 | May 30 – Jul 18, 2026 | Foundations of GenAI LLMs (transformers, attention, prompting) |
+| Module 2 | Jul 25 – Sep 5, 2026 | Advanced Prompting, RAG. **Test 1: Sep 5** |
+| Module 3 | Sep 12 – Oct 31, 2026 | Fine-Tuning, PEFT, RLHF, DPO |
+| Module 4 | Nov 14 – Dec 26, 2026 | Multimodal, Agents, LangChain/LangGraph. **Test 2: Dec 26** |
+| Module 5 | Jan 2 – Feb 6, 2027 | Deployment, FastAPI, MCP, **Capstone** |
 
 ### Module 1 working plan (revised Jun 17, 2026)
 
@@ -89,7 +93,3 @@ Class is broad/fast (deep learning basics + CNN/RNN + attention already covered 
 | 4 | Jul 13–18 | Foundation model landscape — GPT/Gemini/LLaMA/Mistral architecture diffs (RoPE, GQA, MoE), cost/capability/constraint selection framework | Small synthesis project or case study |
 
 This roughly follows the Karpathy zero-to-hero arc (micrograd → makemore → nanoGPT), which lines up with the existing `projects/` structure.
-| Module 2 | Jul 25 – Sep 5, 2026 | Advanced Prompting, RAG. **Test 1: Sep 5** |
-| Module 3 | Sep 12 – Oct 31, 2026 | Fine-Tuning, PEFT, RLHF, DPO |
-| Module 4 | Nov 14 – Dec 26, 2026 | Multimodal, Agents, LangChain/LangGraph. **Test 2: Dec 26** |
-| Module 5 | Jan 2 – Feb 6, 2027 | Deployment, FastAPI, MCP, **Capstone** |

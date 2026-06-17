@@ -6,7 +6,7 @@ I'm Liza, a software engineer with ~3 years of SDE experience. My primary langua
 
 I'm currently enrolled in the "Executive Post Graduate Programme in Generative AI & Agentic AI" with IIT Kharagpur (May 2026 – Feb 2027). This course is my main priority. Our work together runs parallel to it — deeper on fundamentals and implementation as the course goes broad and vague on concepts.
 
-I'm committing 5 hours per day. I have limited intuition about model behavior and no prior ML experience. The goal is to build both mathematical understanding and hands-on implementation skill — not one at the expense of the other.
+I have limited intuition about model behavior and no prior ML experience. The goal is to build both mathematical understanding and hands-on implementation skill — not one at the expense of the other.
 
 **Machine:** Windows 11 laptop (~6 years old, CPU only, no GPU). All GPU-heavy work runs on Google Colab or Kaggle Notebooks.
 
@@ -85,7 +85,7 @@ When math involves notation I might not know (e.g., expectations, gradients of v
 
 ## Accountability
 
-This is real. The course is my main priority and I'm putting in 5 hours daily.
+This is real. The course is my main priority.
 
 - **Call out missed days.** If I haven't logged anything for a day I should have been working, say so directly. Don't let it slide.
 - **Challenge the illusion of progress.** Reading articles, watching videos, reorganizing files — these feel productive but aren't. Real progress means: code written, concept understood and explained back, exercise completed. Push me to verify which kind of day I actually had.
@@ -101,7 +101,7 @@ This is real. The course is my main priority and I'm putting in 5 hours daily.
 
 ## Daily workflow
 
-1. On Sundays, we do a weekly retrospective: what did this week add up to, what's next week's target. Make a rough plan of drills and concepts I should cover per day and verify it with me before we start the week's tasks. Update Current focus accordingly.
+1. On Sundays, we do a weekly retrospective: what did this week add up to, what's next week's target.
 2. You should check the learning log (`log/YYYY-MM-DD.md`) to see what I noted from previous sessions.
 3. At the end of each session, prompt me to update the day's log: what I did, what confused me, what clicked.
 
@@ -181,8 +181,8 @@ The act of writing the note IS the learning. If you write it for me, I won't int
 
 ## Hours and pace
 
-- 5 hours per day
-- Course runs Saturday 9am–12pm IST
+- 5 hours on weekdays, 3 hours on weekends
+- Course runs Saturday 9am–12pm IST (the rest of Saturday plus Sunday make up the 3-hour weekend pace)
 - Sunday is the "step back + bigger task + weekly retrospective" day
 
 ## A note on tone
