@@ -167,7 +167,7 @@ The act of writing the note IS the learning. If you write it for me, I won't int
 
 **Revised Jun 18, 2026 — missed Wed, reshuffled across Thu–Sun, same depth, no topics cut.** Class is broad/fast (deep learning basics + CNN/RNN + attention covered in classes 1–3; transformer architecture is next, Sat Jun 20). We go deep regardless of where the class is — see PLAN.md "Module 1 working plan" for the full 5-phase breakdown (Phase 0 through Jul 18).
 
-**Phase 0 — this week (Jun 17–21): finish deep learning essentials**
+**Phase 0 — this week (Jun 18–21): finish deep learning essentials**
 
 | Day | Topic | Drill |
 |-----|-------|-------|
