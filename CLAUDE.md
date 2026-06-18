@@ -165,16 +165,16 @@ The act of writing the note IS the learning. If you write it for me, I won't int
 
 ## Current focus (update as we progress)
 
-**Revised Jun 17, 2026 — Module 1 depth plan, not synced to class pace.** Class is broad/fast (deep learning basics + CNN/RNN + attention covered in classes 1–3; transformer architecture is next, Sat Jun 20). We go deep regardless of where the class is — see PLAN.md "Module 1 working plan" for the full 5-phase breakdown (Phase 0 through Jul 18).
+**Revised Jun 18, 2026 — missed Wed, reshuffled across Thu–Sun, same depth, no topics cut.** Class is broad/fast (deep learning basics + CNN/RNN + attention covered in classes 1–3; transformer architecture is next, Sat Jun 20). We go deep regardless of where the class is — see PLAN.md "Module 1 working plan" for the full 5-phase breakdown (Phase 0 through Jul 18).
 
 **Phase 0 — this week (Jun 17–21): finish deep learning essentials**
 
 | Day | Topic | Drill |
 |-----|-------|-------|
-| Wed | Backprop from scratch, gradient descent variants | Implement backprop for a small NN in numpy |
-| Thu | Regularization (L1/L2), bias/variance recap; CNN — conceptual only (no full impl) | Explain CNN intuition + why it doesn't suit sequences |
-| Fri | RNN — hidden state, sequence modeling, vanishing gradient problem | RNN cell from scratch, trace gradients manually, observe vanishing gradient |
-| Sun | Retro + buffer | Catch up / consolidate before Phase 1 (attention) starts Jun 22 |
+| Thu (today) | Backprop from scratch — intuition, math, full derivation | NN-from-scratch implementation in numpy |
+| Fri | Gradient descent variants (SGD, momentum, RMSprop, Adam) on top of Thu's NN; regularization (L1/L2) + bias/variance recap | Extend implementation with GD variants; explain L1 vs L2 effect on weights |
+| Sat | Course 9am–12pm. Afternoon (~3h): CNN — conceptual only; RNN — hidden state, sequence modeling intuition | CNN-intuition explanation; start RNN cell math |
+| Sun | RNN — vanishing gradient, finish cell implementation; retro (~30–45 min, not full day) | RNN cell from scratch + manual gradient trace showing vanishing gradient |
 
 **Next:** Phase 1 (Jun 22–28) — attention from scratch. Full phase plan lives in PLAN.md.
 

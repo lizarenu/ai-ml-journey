@@ -86,7 +86,7 @@ Class is broad/fast (deep learning basics + CNN/RNN + attention already covered 
 
 | Phase | Weeks | Focus | Output |
 |---|---|---|---|
-| 0 | Jun 17–21 | Close out deep learning essentials (backprop from scratch, gradient descent variants, regularization); light CNN/RNN treatment | NN-from-scratch implementation; RNN cell trace showing vanishing gradient |
+| 0 | Jun 18–21 | Close out deep learning essentials (backprop from scratch, gradient descent variants, regularization); light CNN/RNN treatment | NN-from-scratch implementation; RNN cell trace showing vanishing gradient |
 | 1 | Jun 22–28 | Attention — Q/K/V, scaled dot-product, multi-head, from scratch in numpy then torch | Working multi-head attention implementation |
 | 2 | Jun 29–Jul 5 | Full transformer block — positional encoding, layer norm, residuals, encoder-decoder vs decoder-only | Mini transformer trained on a toy char-level task |
 | 3 | Jul 6–12 | Tokenization (BPE/WordPiece) + embeddings (static vs contextual, positional) | BPE tokenizer built from scratch |
