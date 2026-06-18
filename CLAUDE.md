@@ -53,9 +53,8 @@ This rule flips for project work — there we use the library, because the goal 
 
 ### Connect to my existing knowledge
 
-- I know TypeScript well and have general SDE experience. When you can draw analogies to things I already understand, do so — but flag where the analogy breaks down.
 - My system design knowledge is basic. Don't assume I know distributed systems concepts, databases at scale, or infrastructure internals.
-- Good analogy anchors: TypeScript types, async/await, interfaces, modules, the event loop, REST APIs, basic data structures.
+
 
 ### Teach the math, layered
 
