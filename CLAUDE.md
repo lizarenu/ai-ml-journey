@@ -6,7 +6,7 @@ I'm Liza, a software engineer with ~3 years of SDE experience. My primary langua
 
 I'm currently enrolled in the "Executive Post Graduate Programme in Generative AI & Agentic AI" with IIT Kharagpur (May 2026 – Feb 2027). This course is my main priority. Our work together runs parallel to it — deeper on fundamentals and implementation as the course goes broad and vague on concepts.
 
-I have limited intuition about model behavior and no prior ML experience. The goal is to build both mathematical understanding and hands-on implementation skill — not one at the expense of the other.
+I know classical/basic ML (regression, standard loss functions, gradient descent at a high level, bias-variance) but have no deep learning experience and limited intuition about neural network/model behavior. The goal is to build both mathematical understanding and hands-on implementation skill — not one at the expense of the other.
 
 **Machine:** Windows 11 laptop (~6 years old, CPU only, no GPU). All GPU-heavy work runs on Google Colab or Kaggle Notebooks.
 
@@ -53,6 +53,8 @@ This rule flips for project work — there we use the library, because the goal 
 
 ### Connect to my existing knowledge
 
+- I know classical/basic ML (regression, classic loss functions, gradient descent at a high level, overfitting/bias-variance, etc.). Bridge new deep learning concepts to that knowledge where it applies, instead of software-engineering analogies.
+- Do NOT use TypeScript/software-engineering analogies to explain ML concepts anymore — they don't land for me here. Use classical ML concepts as the bridge instead.
 - My system design knowledge is basic. Don't assume I know distributed systems concepts, databases at scale, or infrastructure internals.
 
 
@@ -97,6 +99,7 @@ This is real. The course is my main priority.
 - **Don't write huge code blocks when small ones would do.** Especially during learning — small focused snippets I can reason about beat large "complete" solutions.
 - **Don't let me move on if I don't actually understand.** If my explanation of something is vague or wrong, push back. "Vibes-based understanding" is the enemy.
 - **Don't skip the question pause.** After each concept or exercise, always explicitly ask if I have questions before moving on. Never assume I'm ready.
+- **Don't show ghost text / inline suggestions in the terminal.** No greyed-out autocomplete, no suggested text, nothing inline in the terminal chat — I want to type my own answer without a suggestion biasing it.
 
 ## Daily workflow
 
@@ -143,39 +146,40 @@ ai-ml-journey/
 
 This is the durable knowledge layer. Daily logs are chronological (what I did Tuesday); concept notes are topical (everything I know about PCA). When I learn about a concept, the note here gets written or extended.
 
-Each concept note should aim to include:
-- **Intuition** — what is this, in plain language, ideally with an analogy
-- **Math** — the actual equations, with each symbol explained
-- **Why it matters** — what problem it solves, when to reach for it
-- **Visual** — a diagram, plot, or worked example (images go in `concepts/images/`)
-- **Code** — minimal implementation or usage example
-- **Gotchas** — common confusions, edge cases, things that tripped me up
-- **Connections** — how this relates to other concepts I've learned
-- **References** — papers, videos, blog posts I found useful
-
-Not every note needs every section. A note on a small concept might just be intuition + code. A note on something foundational like backprop should have all of them.
 
 **Important:** I write these notes, not you. Your role is to:
 - Suggest when a concept deserves its own note ("this is worth writing up in `concepts/`")
 - Review notes I've written and push back if my explanation is wrong, vague, or missing something important
 - Quiz me from my own notes — "you wrote X about attention, explain why that's true"
 
+**Process for writing a concept note (established Jun 19, on the backprop note):**
+1. Whiteboard Q&A first — I ask questions as they come up (not necessarily in a tidy order), you answer and push back, no note-writing yet. This is where the actual understanding gets built.
+2. Once I feel ready, I dictate/write the note section by section in my own words, pulling from what came up in the Q&A.
+3. You review each section line-by-line and flag specific errors or imprecise phrasing (e.g. "weights vs. activation outputs," "parameters vs. features") rather than rewriting it for me — I fix the wording myself.
+4. Iterate until the wording is actually correct, then it's done.
+
+This replaces the earlier approach of handing me a fill-in-the-blank template — the Q&A-first version surfaces and fixes misconceptions (e.g. confusing the output layer with the loss function, thinking nonlinearity lives "in the weights") before they get baked into the note.
+
 The act of writing the note IS the learning. If you write it for me, I won't internalize it.
 
 ## Current focus (update as we progress)
 
-**Revised Jun 18, 2026 — missed Wed, reshuffled across Thu–Sun, same depth, no topics cut.** Class is broad/fast (deep learning basics + CNN/RNN + attention covered in classes 1–3; transformer architecture is next, Sat Jun 20). We go deep regardless of where the class is — see PLAN.md "Module 1 working plan" for the full 5-phase breakdown (Phase 0 through Jul 18).
+**Revised Jun 19, 2026 — pacing is topic-by-topic, not day-locked.** Class is broad/fast (deep learning basics + CNN/RNN + attention covered in classes 1–3; transformer architecture is next, Sat Jun 20). We go deep regardless of where the class is — see PLAN.md "Module 1 working plan" for the full 5-phase breakdown (Phase 0 through Jul 18). Day labels below are sequencing, not a deadline — see "How we track pace" further down: don't replan on single-day slip, only on a sustained ~30%+ gap against the phase.
 
-**Phase 0 — this week (Jun 18–21): finish deep learning essentials**
+**Phase 0 — finish deep learning essentials (target window Jun 18–21, flexible)**
 
-| Day | Topic | Drill |
-|-----|-------|-------|
-| Thu (today) | Backprop from scratch — intuition, math, full derivation | NN-from-scratch implementation in numpy |
-| Fri | Gradient descent variants (SGD, momentum, RMSprop, Adam) on top of Thu's NN; regularization (L1/L2) + bias/variance recap | Extend implementation with GD variants; explain L1 vs L2 effect on weights |
-| Sat | Course 9am–12pm. Afternoon (~3h): CNN — conceptual only; RNN — hidden state, sequence modeling intuition | CNN-intuition explanation; start RNN cell math |
-| Sun | RNN — vanishing gradient, finish cell implementation; retro (~30–45 min, not full day) | RNN cell from scratch + manual gradient trace showing vanishing gradient |
+| Order | Topic | Drill | Status |
+|---|-------|-------|--------|
+| 1 | Backprop from scratch — intuition, math, full derivation | NN-from-scratch implementation in numpy | Done (Jun 19) — `drills/backprop_from_scratch.py`, XOR network trained and verified |
+| 2 | Gradient descent variants (SGD, momentum, RMSprop, Adam) on top of the NN above; regularization (L1/L2) + bias/variance recap | Extend implementation with GD variants; explain L1 vs L2 effect on weights | Next up |
+| 3 | CNN — conceptual only; RNN — hidden state, sequence modeling intuition | CNN-intuition explanation; start RNN cell math | Not started |
+| 4 | RNN — vanishing gradient, finish cell implementation | RNN cell from scratch + manual gradient trace showing vanishing gradient | Not started |
 
-**Next:** Phase 1 (Jun 22–28) — attention from scratch. Full phase plan lives in PLAN.md.
+**Next phase:** Phase 1 — attention from scratch. Full phase plan lives in PLAN.md.
+
+**How we track pace:** Don't rehash or replan after a single day's slip — work topic-by-topic, not date-by-date. Only flag and replan if running roughly 30%+ behind the current phase's scope. Sunday retro is still the place to step back and recalibrate — update this section's Status column then.
+
+**Python syntax bootcamp (nightly, parallel track):** Python syntax (not concepts) is a gap — runs as a separate nightly session each day, does not consume daytime course/plan hours or push back the phase schedule. If a daytime drill hits a pure-syntax blocker (not a concept gap), solve it inline per the "tangential blockers" rule and flag it for that night's bootcamp rather than stopping to teach syntax mid-session.
 
 
 ## Hours and pace
