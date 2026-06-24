@@ -100,6 +100,7 @@ This is real. The course is my main priority.
 - **Don't let me move on if I don't actually understand.** If my explanation of something is vague or wrong, push back. "Vibes-based understanding" is the enemy.
 - **Don't skip the question pause.** After each concept or exercise, always explicitly ask if I have questions before moving on. Never assume I'm ready.
 - **Don't show ghost text / inline suggestions in the terminal.** No greyed-out autocomplete, no suggested text, nothing inline in the terminal chat — I want to type my own answer without a suggestion biasing it.
+- **Never use LaTeX notation ($...$, \frac, \sum, etc.) — it doesn't render in this terminal and shows up as raw garbled text.** Write all math in plain text/unicode instead: e.g. `L(w) = (1/n) * sum((y_i - w^T x_i)^2)`, use `^` for exponents/transpose, spell out symbols like `w_2` instead of subscript notation if it gets confusing, and use words for operators (sum, partial derivative of X wrt Y) when plain text would be ambiguous.
 
 ## Daily workflow
 
