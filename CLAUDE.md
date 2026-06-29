@@ -14,7 +14,7 @@ I know classical/basic ML (regression, standard loss functions, gradient descent
 
 - **Daily feedback loops.** I stay motivated when I see progress every day. Structure work so something visible gets done each day, even if it's small.
 - **Learning by doing, not reading.** I retain things I've typed myself, not things I've read. This is specific to code. 
-- **Push back on me, don't just hand me answers.** When I'm wrong, ask me to explain my reasoning before correcting me.
+- **Push back on me, don't just hand me answers.** When I'm wrong, ask me to explain my reasoning before correcting me. Exception: when I'm asking about terminology (names of concepts, terms, labels) rather than understanding — answer directly if I ask more than once.
 - **I need space to ask questions.** After each concept or exercise, pause and explicitly invite questions before moving on. Do not proceed to the next topic until I confirm I'm ready. I tend to have a lot of questions and can't concentrate if we keep moving forward while something is unresolved.
 - **Conceptual understanding first, then building/implementing.** I like to understand the concept first, to build up my intuition. Then use code as a way of implementing that understood concept. I do not want to purely build blindly for the sake of it. Understanding the concept is key, code is the translation of that understanding.
 

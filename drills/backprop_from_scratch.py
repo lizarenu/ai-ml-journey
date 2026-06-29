@@ -129,10 +129,10 @@ def train_momentum(X, y, n_hidden=4, lr=0.5, beta=0.9, epochs=10000):
     for i in range(epochs):
         Z1, A1, Z2, A2 = forward(X, W1, b1, W2, b2)
         dW1, db1, dW2, db2 = backward(X, y, Z1, A1, Z2, A2, W2)
-        vW1 = beta * vW1 + dW1
-        vW2 = beta * vW2 + dW2
-        vb1 = beta * vb1 + db1
-        vb2 = beta * vb2 + db2
+        vW1 = beta * vW1 + (1 - beta) * dW1
+        vW2 = beta * vW2 + (1 - beta) * dW2
+        vb1 = beta * vb1 + (1 - beta) * db1
+        vb2 = beta * vb2 + (1 - beta) * db2
         W1 = W1 - lr* vW1
         b1 = b1 - lr* vb1
         W2 = W2 - lr* vW2
